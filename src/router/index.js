@@ -17,6 +17,7 @@ import EC2StorageOptions from "@/views/articles/EC2StorageOptions.vue";
 import AWSEC2NetzwerkOptionen from "@/views/articles/AWSEC2NetzwerkOptionen.vue";
 import LinuxCommandsCheatSheet from "@/views/articles/LinuxCommandsCheatSheet.vue";
 import SolidPrinciplesInPHP from "@/views/articles/SolidPrinciplesInPHP.vue";
+import ACIDTransactions from "@/views/articles/ACIDTransactions.vue";
 
 Vue.use(VueRouter)
 
@@ -111,6 +112,10 @@ const routes = [
     {
         path: '/blog/solid-principles-in-php',
         component: SolidPrinciplesInPHP
+    },
+    {
+        path: '/blog/acid-transaktionen',
+        component: ACIDTransactions
     }
 
 ]

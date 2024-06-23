@@ -2,10 +2,14 @@
 import {defineComponent} from 'vue'
 import ListElement from "@/components/blog/ListElement.vue";
 import AWSEC2NetzwerkOptionen from "@/views/articles/AWSEC2NetzwerkOptionen.vue";
+import ACIDTransactions from "@/views/articles/ACIDTransactions.vue";
 
 export default defineComponent({
   name: "BlogView",
   computed: {
+    ACIDTransactions() {
+      return ACIDTransactions
+    },
     AWSEC2NetzwerkOptionen() {
       return AWSEC2NetzwerkOptionen
     }
@@ -96,6 +100,12 @@ export default defineComponent({
             :text="dockerXdebugTitleText"
             :date="dockerXdebugTitleDate"
             :url="dockerXdebugUrl"
+        ></ListElement>
+        <ListElement
+            :title="ACIDTransactionsPageTitle"
+            :text="ACIDTransactionsPageText"
+            :date="ACIDTransactionsPageDate"
+            :url="ACIDTransactionsPageUrl"
         ></ListElement>
         <ListElement
             :title="solidPrinciplesInPHPTitle"
@@ -192,6 +202,11 @@ export default {
       solidPrinciplesInPHPText: 'Die SOLID-Prinzipien sind grundlegende Designprinzipien, die Entwicklern helfen, sauberen und wartbaren Code zu schreiben. In diesem Artikel werden die fünf SOLID-Prinzipien erläutert und anhand von Beispielen in PHP demonstriert.',
       solidPrinciplesInPHPDate: '2020-01-05',
       solidPrinciplesInPHPUrl: '/blog/solid-principles-in-php',
+
+      ACIDTransactionsPageTitle: 'ACID Transaktionen in SQL',
+      ACIDTransactionsPageText: 'Im Bereich der Datenbanken und verteilten Systeme steht das Akronym ACID für Atomarität, Konsistenz, Isolation und Dauerhaftigkeit. Diese vier Eigenschaften beschreiben die wichtigsten Anforderungen an Transaktionen, um die Datenintegrität und Zuverlässigkeit zu gewährleisten.',
+      ACIDTransactionsPageDate: '2020-03-05',
+      ACIDTransactionsPageUrl: '/blog/acid-transaktionen',
     };
   }
 }
