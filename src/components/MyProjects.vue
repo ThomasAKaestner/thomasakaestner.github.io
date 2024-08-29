@@ -6,6 +6,42 @@
                 <div
                         class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-black"
                 >
+                  <!-- left -->
+                  <div class="flex flex-row-reverse md:contents">
+                    <div
+                        class="bg-gray-300 col-start-1 col-end-5 p-4 rounded-xl my-4 shadow-md"
+                    >
+                      <a href="https://ostend.digital/">
+                        <h3 class="font-semibold text-lg mb-1 underline">Ostend Digital - Freelance</h3>
+                      </a>
+                      <p class="font-bold text-left py-2">Tätigkeiten:</p>
+                      <p class="leading-tight text-justify">
+                        - Migrieren von Daten von STEPS ERP/ Microsoft SQL Server 2012 zu Shopware 6
+                        <br>
+                        - Konzeptionierung von gesamten Datenfluss zwischen Applikationen
+                      </p>
+                      <p class="font-bold text-left py-2">Technologien:</p>
+                      <div class="grid grid-cols-2 md:grid-cols-4 gap-1 text-sm">
+                        <div class="bg-gray-900 rounded text-gray-100 px-2">PHP 8</div>
+                        <div class="bg-gray-900 rounded text-gray-100 px-2">Shopware 6</div>
+                        <div class="bg-gray-900 rounded text-gray-100 px-2">Steps</div>
+                        <div class="bg-gray-900 rounded text-gray-100 px-2">MS Business Central</div>
+                        <div class="bg-gray-900 rounded text-gray-100 px-2">MySQL</div>
+                      </div>
+                      <p class="leading-tight text-center pt-2">
+                        ab 2024 Juli - September 2024
+                      </p>
+                    </div>
+                    <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                      <div class="h-full w-6 flex items-center justify-center">
+                        <div class="h-full w-1 bg-gray-300 pointer-events-none"></div>
+                      </div>
+                      <div
+                          class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-300 shadow"
+                      ></div>
+                    </div>
+                  </div>
+
                     <!-- right -->
                   <div class="flex md:contents">
                     <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
@@ -47,7 +83,7 @@
                         <div class="bg-gray-900 rounded text-gray-100 px-2">Shopware 6</div>
                       </div>
                       <p class="leading-tight text-center pt-2">
-                        ab April 2023
+                        ab April 2023 - September 2024
                       </p>
                     </div>
                   </div>
@@ -115,6 +151,10 @@
                             <p class="font-bold text-left py-2">Tätigkeiten:</p>
                             <p class="leading-tight text-justify">
                                 - Konzeption & Entwicklung einer EDI Messanger Plattform
+                                <br>
+                                - Programmierung von Connectoren in PHP
+                                <br>
+                                - Entwicklung von REST APIs für das neue Procuros Portal
                             </p>
                             <p class="font-bold text-left py-2">Technologien:</p>
                             <div class="grid grid-cols-2 md:grid-cols-4 gap-1 text-sm">
@@ -188,7 +228,11 @@
                             </a>
                             <p class="font-bold text-left py-2">Tätigkeiten:</p>
                             <p class="leading-tight text-justify">
-                                Entwicklung von Backend Middelwares für SCAYLE Kunden
+                                - Entwicklung von Backend Middelwares für SCAYLE Kunden (Marc'O Polo, Tom Tailor)
+                              <br>
+                                - Managen von alten Backend Middlewares
+                              <br>
+                                - Beratung und Planung von der Entwicklung von neuer carrier connect Applikationen für mehrere SCAYLE Kunden
                             </p>
                             <p class="font-bold text-left py-2">Technologien:</p>
                             <div class="grid grid-cols-2 md:grid-cols-4 gap-1 text-sm">
@@ -229,7 +273,11 @@
                             </a>
                             <p class="font-bold text-left py-2">Tätigkeiten:</p>
                             <p class="leading-tight text-justify">
-                                Entwicklung einer neuen Logistikapplikation und Carrier-Middelware.
+                                - Entwicklung einer neuen Logistikapplikation und Carrier-Middelware
+                              <br>
+                                - Instandhaltung einer legacy Logistikapplikation
+                              <br>
+                                - Entwicklung um die 10 Composer PHP Packages für verschiedene Lieferanten
                             </p>
                             <p class="font-bold text-left py-2">Technologien:</p>
                             <div class="grid grid-cols-2 md:grid-cols-4 gap-1 text-sm">
