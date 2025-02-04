@@ -25,6 +25,18 @@ export default defineComponent({
       <p>Updates, Tips & Meinungen über PHP, Symfony, Laravel, Golang, AWS, Kubernetes, Terraform und Docker.</p>
       <ul class="divide-y divide-gray-400">
         <ListElement
+            :title="ImperativeVsDeclarativeIaCTitle"
+            :text="ImperativeVsDeclarativeIaCText"
+            :date="ImperativeVsDeclarativeIaCDate"
+            :url="ImperativeVsDeclarativeIaCUrl"
+        ></ListElement>
+        <ListElement
+            :title="TerraformCommandsTitel"
+            :text="TerraformCommandsText"
+            :date="TerraformCommandsDate"
+            :url="TerraformCommandsUrl"
+        ></ListElement>
+        <ListElement
             :title="LinuxCommandsTitle"
             :text="LinuxCommandsText"
             :date="LinuxCommandsDate"
@@ -127,6 +139,17 @@ export default {
   },
   data() {
     return {
+      ImperativeVsDeclarativeIaCTitle: 'Imperative VS Declarative IAC',
+      ImperativeVsDeclarativeIaCText: '\n' +
+          'Imperative Infrastructure-as-Code (IaC) beschreibt, wie Infrastruktur erstellt wird, indem spezifische Schritte und Anweisungen definiert werden, während deklarative IaC beschreibt, was die gewünschte Infrastruktur ist, ohne sich um die konkreten Schritte zu kümmern.',
+      ImperativeVsDeclarativeIaCDate: '2024-12-11',
+      ImperativeVsDeclarativeIaCUrl: '/blog/imperative-vs-declarative-iac',
+
+      TerraformCommandsTitel: 'Die wichtigsten Terraform commands',
+      TerraformCommandsText: 'Terraform ist ein Open-Source-Werkzeug zur Automatisierung und Verwaltung von Infrastruktur als Code (IaC). Die wichtigsten Terraform-Befehle ermöglichen es, Infrastrukturen zu planen, bereitzustellen, zu ändern und effizient zu verwalten.',
+      TerraformCommandsDate: '2024-12-11',
+      TerraformCommandsUrl: '/blog/terraform-commands',
+
       AWSCloudFormationPageTitle: 'AWS Cloudformation',
       AWSCloudFormationPageText: 'This is the text content for the Child Component.',
       AWSCloudFormationPageDate: '2023-10-08',

@@ -4,7 +4,7 @@
             <h1 class="text-lg font-bold pt-4 pb-2">Impressum:</h1>
             <ul>
                 <li>Thomas Kästner</li>
-                <li>Email: freelancing.thomasalankaestner@gmail.com</li>
+                <li>Email: thomasalankaestner@gmail.com</li>
                 <li>USt-ID: </li>
             </ul>
             <h1 class="text-lg font-bold pt-6 pb-2">Datenschutzerklärung:</h1>
