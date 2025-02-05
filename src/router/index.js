@@ -18,6 +18,8 @@ import AWSEC2NetzwerkOptionen from "@/views/articles/AWSEC2NetzwerkOptionen.vue"
 import LinuxCommandsCheatSheet from "@/views/articles/LinuxCommandsCheatSheet.vue";
 import SolidPrinciplesInPHP from "@/views/articles/SolidPrinciplesInPHP.vue";
 import ACIDTransactions from "@/views/articles/ACIDTransactions.vue";
+import TerraformCommands from "@/views/articles/TerraformCommands.vue";
+import ImperativeVsDeclarativeIAC from "@/views/articles/ImperativeVsDeclarativeIAC.vue"
 
 Vue.use(VueRouter)
 
@@ -94,6 +96,16 @@ const routes = [
         path: '/blog/aws-ec2-netzwerk-optionen',
         name: 'aws-netzwerk-optionen',
         component: AWSEC2NetzwerkOptionen
+    },
+    {
+        path: '/blog/terraform-commands',
+        name: 'aws-terraform-commands',
+        component: TerraformCommands
+    },
+    {
+        path: '/blog/imperative-vs-declarative-iac',
+        name: 'imperative-vs-declarative-iac',
+        component: ImperativeVsDeclarativeIAC
     },
     {
         path: '/shopware-6',
