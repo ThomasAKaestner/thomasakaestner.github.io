@@ -15,12 +15,9 @@ export default {
         <div>
           <h3 class="text-4xl font-bold text-white my-4">Imperative IAC</h3>
           <div>
-
             Imperative Infrastructure as Code (IAC) ist ein Ansatz, bei dem die Infrastruktur durch explizite,
             sequenzielle Anweisungen definiert wird, die in einer bestimmten Reihenfolge ausgeführt werden, um das
             gewünschte Systemzustand zu erreichen.
-
-
           </div>
           <div class="font-bold text-xl">Code Beispiel:</div>
           <div class="font-bold text-xl">Die bekanntesten imperativen Infrastructure as Code(IAC)-Tools sind</div>
@@ -43,7 +40,12 @@ export default {
         </div>
         <div>
           <h3 class="text-4xl font-bold text-white my-4">Declarative IAC</h3>
-          <div></div>
+          <div>
+            Declarative Infrastructure as Code (IAC) bezeichnet den Ansatz, bei dem die gewünschte Infrastruktur in
+            einer deklarativen Sprache beschrieben wird, sodass das System automatisch den aktuellen Zustand an den
+            gewünschten Zustand anpasst, ohne dass die genauen Schritte zur Erstellung vorgegeben werden müssen.
+            Hier wird nur das Ziel beschrieben.
+          </div>
           <div>Example:</div>
         </div>
         <div class="flex items-center py-8">
