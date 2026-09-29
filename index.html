@@ -1,23 +1,234 @@
-<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="Title" content="Thomas Kästner - GO & PHP Entwicklung in Hamburg"><meta name="Language" content="de"><meta name="Description" content="Ich bin ein Backendenwickler aus Hamburg und"><meta name="Keywords" content="GO Entwicklung Hamburg,
-          PHP Entwicklung Hamburg,
-          Thomas Kästner,
-          Go Entwicklung,
-          PHP Entwicklung,
-          AWS Consulting Hamburg,
-          AWS Entwicklung Hamburg,
-          Backendentwicklung Hamburg,
-          Golang Softwareentwicklung
-    "><link rel="icon" href="/favicon.ico"><script src="https://cdn.tailwindcss.com"></script><title>Thomas Kästner - GO & PHP Entwicklung in Hamburg</title><link href="/js/about.dc35024b.js" rel="prefetch"><link href="/css/app.85adddd1.css" rel="preload" as="style"><link href="/js/app.3c2ddf1f.js" rel="preload" as="script"><link href="/js/chunk-vendors.59287c6b.js" rel="preload" as="script"><link href="/css/app.85adddd1.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but thomaskaestner doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><script async src="https://www.googletagmanager.com/gtag/js?id=G-JCTS2GNT26"></script><script>window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+<!doctype html>
+<!-- Generiert von website/build.sh. Nicht von Hand editieren. -->
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thomas Kästner – Senior Full-Stack-Entwickler &amp; AI-Engineer</title>
+<meta name="description" content="Ich entwickle Software, weil mich der Moment reizt, in dem aus einem fachlichen Problem ein System wird, das trägt.">
+<meta name="theme-color" content="#fffafc">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://www.thomaskaestner.de">
+<meta property="og:type" content="profile">
+<meta property="og:locale" content="de_DE">
+<meta property="og:title" content="Thomas Kästner – Senior Full-Stack-Entwickler &amp; AI-Engineer">
+<meta property="og:description" content="Ich entwickle Software, weil mich der Moment reizt, in dem aus einem fachlichen Problem ein System wird, das trägt.">
+<meta property="og:url" content="https://www.thomaskaestner.de">
+<meta property="og:image" content="https://www.thomaskaestner.de/portrait.png">
+<style>
+:root {
+  
+  --paper: #fffafc;
+  --ink: #2b2b2b;
+  --muted: #6f6a6c;
+  --rule: #2b2b2b;
 
-    gtag('config', 'G-JCTS2GNT26');</script><script>(function(l) {
-        if (l.search[1] === '/' ) {
-            var decoded = l.search.slice(1).split('&').map(function(s) {
-                return s.replace(/~and~/g, '&')
-            }).join('?');
-            window.history.replaceState(null, null,
-                l.pathname.slice(0, -1) + decoded + l.hash
-            );
-        }
-    }(window.location))</script><div id="app"></div><script src="/js/chunk-vendors.59287c6b.js"></script><script src="/js/app.3c2ddf1f.js"></script></body></html>
+  
+  --font-text: "Baskerville", "Libre Baskerville", "Palatino", "Palatino Linotype",
+    "Book Antiqua", Georgia, "Times New Roman", serif;
+  
+  --font-display: "Helvetica Neue", "Avenir Next", "Arial Narrow", Helvetica, Arial,
+    sans-serif;
+
+  --measure: 36rem;
+}
+
+:root { color-scheme: light; }
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-text);
+  
+  font-size: 1.125rem;
+  
+  line-height: 1.65;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.page {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: clamp(2rem, 8vw, 5rem) clamp(1.25rem, 6vw, 2.5rem);
+}
+
+@media (min-width: 46rem) {
+  .page {
+    border-left: 1px solid var(--rule);
+    padding-left: 3rem;
+    
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(var(--measure) + 3rem);
+    
+    min-height: 100vh;
+  }
+
+  
+  @supports (min-height: 100dvh) {
+    .page { min-height: 100dvh; }
+  }
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1.75rem;
+  margin-bottom: 2.5rem;
+}
+
+.intro__text { flex: 1 1 14rem; }
+
+.name {
+  font-family: var(--font-display);
+  font-stretch: 75%;
+  font-weight: 900;
+  
+  font-size: clamp(2.25rem, 11vw, 3.25rem);
+  line-height: 1.02;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  margin: 0 0 0.6rem;
+}
+
+.role {
+  font-size: 1.0625rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+.place {
+  font-size: 0.9375rem;
+  color: var(--muted);
+  margin: 0.15rem 0 0;
+}
+
+.portrait {
+  flex: 0 0 auto;
+  display: block;
+  width: 11rem;
+  max-width: 45%;
+  height: auto;
+}
+
+@media (max-width: 26rem) {
+  .portrait { width: 9rem; max-width: 60%; }
+}
+
+h2 {
+  font-family: var(--font-display);
+  font-stretch: 75%;
+  font-weight: 900;
+  font-size: 0.9375rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 2.75rem 0 0;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.lead {
+  margin: 1.1rem 0 0;
+  
+  hyphens: none;
+}
+
+.contact {
+  list-style: none;
+  margin: 1.1rem 0 0;
+  padding: 0;
+}
+
+.contact li + li { margin-top: 0.55rem; }
+
+.contact__label {
+  font-family: var(--font-display);
+  font-stretch: 75%;
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  
+  display: block;
+  margin-bottom: 0.1rem;
+}
+
+@media (min-width: 30rem) {
+  .contact__label {
+    display: inline-block;
+    width: 5.5rem;
+    margin-bottom: 0;
+  }
+}
+
+.contact a {
+  
+  overflow-wrap: anywhere;
+}
+
+a {
+  color: var(--ink);
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+a:hover,
+a:focus-visible {
+  text-decoration-thickness: 2px;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+  border-radius: 1px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="intro">
+    <div class="intro__text">
+      <h1 class="name">Thomas<br>Kästner</h1>
+      <p class="role">Senior Full-Stack-Entwickler &amp; AI-Engineer</p>
+      <p class="place">Hamburg</p>
+    </div>
+    <img class="portrait" src="portrait.png" width="360" height="320" alt="Portraitfoto von Thomas Kästner">
+  </header>
+
+  <main>
+    <section aria-labelledby="ueber-mich">
+      <h2 id="ueber-mich">Kurz zu mir</h2>
+      <p class="lead">Ich entwickle Software, weil mich der Moment reizt, in dem aus einem fachlichen Problem ein System wird, das trägt. Am liebsten steige ich früh ein, bei Datenmodell, Architektur und erster Zeile, und zwar mit den Leuten am Tisch, die das Verfahren später selbst betreiben. Was danach jahrelang laufen und irgendwann ein Team tragen soll, baue ich bewusst langweilig: bewährter Stack, Infrastruktur als Code, Entscheidungen, die man in zwei Jahren noch erklären kann.</p>
+    </section>
+
+    <section aria-labelledby="kontakt">
+      <h2 id="kontakt">Kontakt</h2>
+      <ul class="contact">
+        <li><span class="contact__label">GitHub</span><a href="https://github.com/ThomasAKaestner">github.com/ThomasAKaestner</a></li>
+        <li><span class="contact__label">LinkedIn</span><a href="https://www.linkedin.com/in/thomas-alan-k-931b67199">linkedin.com/in/thomas-alan-k-931b67199</a></li>
+        <li><span class="contact__label">E-Mail</span><a href="mailto:thomasalankaestner@gmail.com">thomasalankaestner@gmail.com</a></li>
+      </ul>
+    </section>
+  </main>
+
+</div>
+</body>
+</html>
